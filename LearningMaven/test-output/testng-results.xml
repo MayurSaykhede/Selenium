@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[alluArjun]]>
+    </line>
+    <line>
+      <![CDATA[vickyKaushal]]>
+    </line>
+    <line>
+      <![CDATA[maheshBabu]]>
+    </line>
+    <line>
+      <![CDATA[yash]]>
+    </line>
+    <line>
+      <![CDATA[puneeth]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-26T16:10:31 IST" name="Suite" finished-at="2024-07-26T16:11:14 IST" duration-ms="43434">
+    <groups>
+      <group name="Pan India">
+        <method signature="AlluArjun.alluArjun()[pri:0, instance:com.groupExecutionClasses.AlluArjun@47eaca72]" name="alluArjun" class="com.groupExecutionClasses.AlluArjun"/>
+        <method signature="Yash.yash()[pri:0, instance:com.groupExecutionClasses.Yash@4802796d]" name="yash" class="com.groupExecutionClasses.Yash"/>
+      </group> <!-- Pan India -->
+      <group name="TFI">
+        <method signature="AlluArjun.alluArjun()[pri:0, instance:com.groupExecutionClasses.AlluArjun@47eaca72]" name="alluArjun" class="com.groupExecutionClasses.AlluArjun"/>
+        <method signature="MaheshBabu.maheshBabu()[pri:0, instance:com.groupExecutionClasses.MaheshBabu@7b98f307]" name="maheshBabu" class="com.groupExecutionClasses.MaheshBabu"/>
+      </group> <!-- TFI -->
+      <group name="Bollywood">
+        <method signature="VickyKaushal.vickyKaushal()[pri:0, instance:com.groupExecutionClasses.VickyKaushal@71d44a3]" name="vickyKaushal" class="com.groupExecutionClasses.VickyKaushal"/>
+      </group> <!-- Bollywood -->
+      <group name="KFI">
+        <method signature="Puneeth.puneeth()[pri:0, instance:com.groupExecutionClasses.Puneeth@34123d65]" name="puneeth" class="com.groupExecutionClasses.Puneeth"/>
+        <method signature="Yash.yash()[pri:0, instance:com.groupExecutionClasses.Yash@4802796d]" name="yash" class="com.groupExecutionClasses.Yash"/>
+      </group> <!-- KFI -->
+    </groups>
+    <test started-at="2024-07-26T16:10:31 IST" name="Test" finished-at="2024-07-26T16:11:14 IST" duration-ms="43434">
+      <class name="com.groupExecutionClasses.Puneeth">
+        <test-method signature="puneeth()[pri:0, instance:com.groupExecutionClasses.Puneeth@34123d65]" started-at="2024-07-26T16:11:08 IST" name="puneeth" finished-at="2024-07-26T16:11:14 IST" duration-ms="6222" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[puneeth]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- puneeth -->
+      </class> <!-- com.groupExecutionClasses.Puneeth -->
+      <class name="com.groupExecutionClasses.Yash">
+        <test-method signature="yash()[pri:0, instance:com.groupExecutionClasses.Yash@4802796d]" started-at="2024-07-26T16:11:01 IST" name="yash" finished-at="2024-07-26T16:11:08 IST" duration-ms="6876" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[yash]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- yash -->
+      </class> <!-- com.groupExecutionClasses.Yash -->
+      <class name="com.groupExecutionClasses.MaheshBabu">
+        <test-method signature="maheshBabu()[pri:0, instance:com.groupExecutionClasses.MaheshBabu@7b98f307]" started-at="2024-07-26T16:10:54 IST" name="maheshBabu" finished-at="2024-07-26T16:11:01 IST" duration-ms="7036" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[maheshBabu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maheshBabu -->
+      </class> <!-- com.groupExecutionClasses.MaheshBabu -->
+      <class name="com.groupExecutionClasses.AlluArjun">
+        <test-method signature="alluArjun()[pri:0, instance:com.groupExecutionClasses.AlluArjun@47eaca72]" started-at="2024-07-26T16:10:31 IST" name="alluArjun" finished-at="2024-07-26T16:10:47 IST" duration-ms="16619" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[alluArjun]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- alluArjun -->
+      </class> <!-- com.groupExecutionClasses.AlluArjun -->
+      <class name="com.groupExecutionClasses.VickyKaushal">
+        <test-method signature="vickyKaushal()[pri:0, instance:com.groupExecutionClasses.VickyKaushal@71d44a3]" started-at="2024-07-26T16:10:47 IST" name="vickyKaushal" finished-at="2024-07-26T16:10:54 IST" duration-ms="6543" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[vickyKaushal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vickyKaushal -->
+      </class> <!-- com.groupExecutionClasses.VickyKaushal -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
