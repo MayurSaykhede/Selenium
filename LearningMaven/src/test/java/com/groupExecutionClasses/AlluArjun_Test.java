@@ -6,8 +6,8 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class AlluArjun_Test {
-	
-	@Test(groups = {"TFI", "Pan India"})
+
+	@Test(groups = { "TFI", "Pan India" })
 	public void alluArjun() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
