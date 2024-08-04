@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="com.selenium.LaunchBrowserWithoutScanner">
+		<parameter name="bname" value="chrome"></parameter>
+	  </class>
+      <class name="com.selenium.JavaTPoint">
+		<parameter name="bname" value="edge"></parameter>
+	  </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
