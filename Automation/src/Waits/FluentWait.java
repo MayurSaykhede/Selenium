@@ -9,10 +9,13 @@ public class FluentWait {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
-		//FluentWait fulentwait = new FluentWait(driver);
+		//FluentWait fluentwait = new FluentWait(driver);
+		//fluentwait.withTimeout(Duration.ofSeconds(15));
 		//fluentwait.pollingEvery(Duration.ofMillis(250));
 		//fluentwait.ignoring(NoSuchElementException.class);
-		//fluentwait.withTimeout(Duration.ofSeconds(15));
+		
+		//fluentwait.until(ExceptedConditions.elementToBeClickable(By.id("id")));
+		
 		
 		
 		
